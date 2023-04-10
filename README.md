@@ -51,9 +51,9 @@ GET /tweets?page=num
 ```
 
 ```http
-GET /tweets
+GET /tweets/USERNAME
 ```
-- Retorna todos os tweets publicados do usuário recebido por parâmetro de rota.
+- Retorna todos os tweets publicados do usuário recebido por parâmetro de rota(USERNAME).
 - Formato de retorno:
 ```json
 [
